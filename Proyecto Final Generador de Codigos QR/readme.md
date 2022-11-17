@@ -13,6 +13,25 @@ En este proyecto realizamos el manejo de códigos QR mediante imágenes que nos 
 ![PIP](https://img.shields.io/static/v1?label&=&message=Pillow_v9.3.0&color=FFD43B&style=for-the-badge&logo=python&logoColor=blue)<br> 
 ![VSCODE](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white) 
 
+<h2>¿Como usar?</h2>
+
+<p>
+1- Descargue el .zip del proyecto
+  
+2- Instale el gestor de paquetes PIP
+  
+3- Instale la libreria Pillow (Para la edicion de imagenes)
+  
+4- Ejecute el comendo para la compilacion del proyecto
+  
+5- Proporcione la ruta a la imagen que desea utilizar
+
+6- Proporcione las dimensiones que tendra el logo dentro del QR (Por default sera 75px)
+
+7- Proporcione el enlace al cual desea redirigir con el QR
+
+</p>
+
 <h2>Autores</h2>
 
 |  [<img src="https://avatars.githubusercontent.com/u/65583500?v=4" width=115><br><sub>Luis Isaac Cuautle</sub>](https://github.com/IsaacCuautle) | [<img src="https://avatars.githubusercontent.com/u/114626288?v=4" width=115><br><sub>Francisco J. Sanchez Pletero</sub>](https://github.com/JavierFS11) | [<img src="https://avatars.githubusercontent.com/u/114626263?v=4" width=115><br><sub>Ariel Cruz</sub>](https://github.com/ArixlCP) 
