@@ -1,6 +1,4 @@
 <h1 style="text-align:  center">Proyecto Final: Generador de Códigos QR</h1>
-<h2 style="text-align:center">Introduccion</h2>
-<p>
 
 <h2>Marco Teorico</h2>
 Los códigos QR son una forma de almacenar y transmitir información mediante el uso de una imagen codificada. Se pueden utilizar para almacenar una variedad de datos, como direcciones web, números de teléfono e incluso pequeños mensajes. QR significa "código de respuesta rápida".</p>
@@ -17,5 +15,5 @@ En este proyecto realizamos el manejo de códigos QR mediante imágenes que nos 
 
 <h2>Autores</h2>
 
-|  [<img src="https://avatars.githubusercontent.com/u/65583500?v=4" width=115><br><sub>Luis Isaac Cuautle</sub>](https://github.com/IsaacCuautle) | [<img src="https://avatars.githubusercontent.com/u/72757419?v=4" width=115><br><sub>Francisco Javier Sanchez Platero</sub>](https://github.com/raymundosoto) | [<img src="https://avatars.githubusercontent.com/u/114626263?v=4" width=115><br><sub>Ariel Cruz</sub>](https://github.com/ArixlCP) 
+|  [<img src="https://avatars.githubusercontent.com/u/65583500?v=4" width=115><br><sub>Luis Isaac Cuautle</sub>](https://github.com/IsaacCuautle) | [<img src="https://avatars.githubusercontent.com/u/114626288?v=4" width=115><br><sub>Francisco J. Sanchez Pletero</sub>](https://github.com/JavierFS11) | [<img src="https://avatars.githubusercontent.com/u/114626263?v=4" width=115><br><sub>Ariel Cruz</sub>](https://github.com/ArixlCP) 
 | :---: | :---: | :---: |
