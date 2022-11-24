@@ -1,32 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
-    <style type="text/css">
-         body{ 
-            height: 100%;
-            margin: 0%;
-            background-size: cover;
-            background: rgb(2,0,36); 
-            background: linear-gradient(1deg, rgba(2,0,36,1) 0%, #090979 35%, rgba(0,212,255,1) 100%);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
+    <title>Procesamiento Digital de Imagenes Unitec</title>
+    <style>
+
+        h1 {
+            font-family: 'Kanit', sans-serif;
+            font-weight: 700;
+        }
+
+        h2 {
+            font-family: 'Kanit', sans-serif;
+            font-weight: 500;
+            margin: 0;
+            text-align: center;
             
         }
-        h1 { color: beige;
-        text-align: center;}
+
+        p,a {
+            margin: 0;
+            font-family: 'Kanit', sans-serif;
+            font-weight: 400; 
+            
+        }
+
+        a{
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .navegacion{
+            width: 100%;
+            position: fixed;
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 4rem;
+            background: rgb(0,212,255);
+            background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 50%, rgba(2,0,36,1) 100%);
+        }
+
+        .navegacion .titulo h2{
+            margin: 1rem auto;
+            font-size: 1.5rem;
+            margin-left: 2rem;
+            color: whitesmoke;
+        }
+
+        .navegacion .contenido{
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+            margin:auto 2rem;   
+        }
+        
+        .navegacion .contenido a{
+            color: white;
+            font-size: 1.2rem;
+        }
+
+        .principal {
+            padding-top: 80px;
+            margin: 0;
+            text-align: center;
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./gitpage/img/background.webp);
+            background-size: cover;
+            background-position:bottom;
+            height: 25rem;
+        }
+        
+        .principal .titulo{
+            
+            margin: 0;
+            color: whitesmoke;
+            font-weight: bold;
+        }
+
+        .principal .descripcion p{
+            margin: 0;
+            color: whitesmoke;
+            text-align: center;
+            font-size: 1.3rem;
+        }
+
+
+        .sobre-proyecto {
+            text-align: center;
+            padding-top: .5rem;
+            margin: 0;
+            background-color: #4FA095;
+        }
+
+        .sobre-proyecto p {
+            text-align: center;
+            margin: 0 1rem;
+            margin-right: 1rem;
+            padding: .5rem;
+        }
+
+        .imagenes {
+            align-items: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-left: 35%;
+            margin-right: 40%;
+            gap: 3rem;
+        }
+
+        .imagenes .imagen img{
+            width: 10rem;
+        }
+
+
+        .sobre-nosotros {
+            padding-top: .5rem;
+            margin: 0;
+            background-color: #F6F6C9;
+        }
+
+        .sobre-nosotros p {
+            text-align: center;
+            margin: 0 1rem;
+            margin-right: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .integrantes {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 4.5rem;
+        }
+
+        .integrantes p{
+            text-align: justify;
+            margin: 0 1rem;
+            margin-right: 1rem;
+            padding: .5rem;
+        }
+
+        .persona p{
+            text-align: center;
+            padding: 0;
+            
+        }
+
+        .nombre-persona{
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+
+        .persona img{
+            margin-left: 9rem;
+            width: 8rem;
+        }
+
+        footer {
+            padding-top: 1rem;
+            background-color: #153462;
+            height: 2rem;
+        }
+
+        .copyright {
+            margin: 0;
+            color: white;
+            text-align: center;
+            
+        }
+
+        
+
     </style>
-    <title>Procesamiento Digital de Imagenes Unitec</title>
 </head>
 <body>
-    <h1>Procesamiento Digital de Imagenes Unitec</h1>
-    <h2>Repositorio del Proyecto</h2>
-    <h2>Pagina de Unitec</h2>
+    <header>
+        <div class="navegacion">
+            <div class="titulo">
+                <a href="#principal"><h2>&#60;Procesamiento Digital de Imagenes Unitec/></h2></a>
+            </div>
+
+            <div class="contenido">
+                <a href="#principal">Inicio</a>
+                <a href="#sobre-el-proyecto">Sobre el proyecto</a>
+                <a href="#sobre-nosotros">Sobre Nosotros</a>
+            </div>
+        </div>
+    </header> 
+
+    <div class="principal" id="principal">
+            <h1 class="titulo">&#60;Procesamiento Digital de Imagenes Unitec/></h1> 
+            <div class="blur"></div>
+        <div class="descripcion">
+            <p>Bienvenido al Repositorio de Procesamiento Digital de Imagenes de Unitec Campus Ecatepec</p>
+        </div>
+    </div>
+
+    <div class="sobre-proyecto" id="sobre-el-proyecto">
+        <h2>Sobre el Proyecto</h2>
+        <div class="imagenes">
+            <div class="imagen">
+                <img src="./Proyecto Final Generador de Codigos QR/img/qrgithub.png" alt="imagen1">
+            </div>
+            <div class="imagen">
+                <img src="./Proyecto Final Generador de Codigos QR/img/qrunitec.png" alt="imagen2">
+            </div>
+        </div>
+        <div class="descripcion">
+            <p>Nuestro proyecto es un sencillo generador de iamgenes, que permite a cualquier usuario generar sus propios codigos QR personalisados, todo mediante instrucciones en consola.
+            </p>
+        </div>
+    </div>
+
+    <div class="sobre-nosotros" id="sobre-nosotros">
+        <h2>Sobre Nosotros</h2>
+        <div class="descripcion">
+            <p>
+                Nuestro equipo esta conformado de tres integrantes, todos estudiantes del campus Ecatepec 
+            </p> 
+        </div>
+
+        <div class="integrantes">
+            <div class="persona">
+                <img src="https://avatars.githubusercontent.com/u/114626263?v=4" alt="Img_persona1">
+                <p class="nombre-persona">Ariel Cruz</p>
+                <p>Estudiante de 22 años en Ingenieria en Sistemas C.<br>Creativo y orientado a resultados.</p>
+            </div>
+            <div class="persona">
+                <img src="https://avatars.githubusercontent.com/u/65583500?v=4" alt="Img_persona2">
+                <p class="nombre-persona">Isaac Cuautle</p>
+                <p>Estudiante de 22 años en Ingenieria en Sistemas C.<br>Interesado en el desarrollo web.</p>
+            </div>
+            <div class="persona">
+                <img src="https://avatars.githubusercontent.com/u/114626288?v=4" alt="Img_persona3">
+                <p class="nombre-persona">Francisco Sanchez</p>
+                <p>Estudiante de 22 años en Ingenieria en Sistemas C.</p>
+            </div>
+        </div>
+        
+    </div>
+    
 </body>
+
+<footer class="footer">
+    <p class="copyright"> © Todos los derechos reservados | Cuautle Delgadillo Luis Isaac 2022 </p>
+</footer>
+
 </html>
 

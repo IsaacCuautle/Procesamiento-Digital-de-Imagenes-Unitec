@@ -23,4 +23,4 @@ pos = ((img_qr_big.size[0] - logo.size[0]) // 2, (img_qr_big.size[1]
        - logo.size[1]) // 2)
 img_qr_big.paste(logo, pos)
 save_path = input('Ingrese el nombre de su archivo de salida: ')
-img_qr_big.save(save_path + '.png')
+img_qr_big.save('./img'+save_path + '.png')
